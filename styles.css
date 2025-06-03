@@ -1,0 +1,28 @@
+* {
+padding: 0;
+margin: 0;
+}
+
+body {
+background-color: beige;
+}
+
+#container {
+display: flex;
+justify-content: center;
+}
+
+.pad {
+display: flex;
+flex-wrap: wrap;
+border: 1px solid black;
+width: 700px;
+height: 700px;
+} 
+
+.cells {
+border: 1px solid black;
+box-sizing: border-box;
+height: 20px;
+width: 20px;
+}
